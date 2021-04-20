@@ -1,0 +1,125 @@
+html{
+    height: 100%;
+}
+/* section************************* */
+
+section{
+    background-color: rgb(192, 5, 5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* main****************************************** */
+main{
+    height: 100vh;
+    
+}
+.backgroun-title{
+    height: 100%;
+}
+.background-image{
+    height: 100%;
+    background-image: url('images/bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+    
+    
+h1{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    font-weight: 800;
+    color: rgb(250, 184, 4);
+}
+h2{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    font-weight: 800;
+    color: rgb(250, 184, 4);
+    cursor: pointer;
+}
+
+.card-random{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    font-weight: 800;
+    color: rgb(241, 8, 8);
+    padding: 10px;
+    background: rgba(243, 237, 237, 0.863);
+    border-radius: 3px;
+
+}
+
+/*Modal ***************************** */
+.card-modal{
+    padding: 300px;
+   text-align: center;
+    background: rgba(243, 237, 237, 0.74);
+    height: 100%;
+    width: 100%;
+    font-size: 75px;
+    font-weight: 800;
+    color: rgb(138, 4, 4);
+}
+/* photos**************** */
+ .container-photos{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    width: 100%;
+    
+   
+    
+    
+}   
+.photo{
+    border: 1px solid black;
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+ }
+    /* ******************* */
+ 
+      
+     
+       
+      
+     
+      
+      #list {
+        background-color: rgba(0, 0, 0, 0.2);
+        width: 250px;
+        width: 90%;
+        width: 0;
+        position: relative;
+        display: block;
+        margin-top: 50px;
+      }
+      
+      .tile {
+        display: block;
+        position: absolute;
+        background-color: black;
+        color:black;
+        padding: 5px;
+        font-weight: bold;
+      }
+      
+      .layout {
+        color: black;
+        margin-bottom: 15px;
+        
+       
+      
+       
+      }
+      

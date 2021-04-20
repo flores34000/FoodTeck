@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js">
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" async></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FoodTeck</title>
+  </head>
+  <body>
+    <div class="modal"></div>
+
+    <!-- navbar******************************************* -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="images/logo.png" height="40" alt="" loading="lazy" />
+        </a>
+
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarCenteredExample"
+        >
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link midi" aria-current="page" href="#"
+                >Menu du Midi</a
+              >
+              <!-- menu caché************************************************** -->
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link soir" href="#">Menu du soir</a>
+              <!-- menu caché************************************************** -->
+            </li>
+
+            <li class="nav-item">
+              <a
+                class="nav-link week-end"
+                href="#"
+                tabindex="-1"
+                aria-disabled="true"
+                >Menu du week-end</a
+              >
+              <!-- menu caché************************************************** -->
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section>
+      <div class="card card-midi rounded-0" style="width: 18rem">
+        <div class="card-header">Filet de turbot de la mer Noire</div>
+        <div class="card-body">
+          <blockquote class="blockquote mb-0">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+              posuere erat a ante.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+              posuere erat a ante.
+            </p>
+          </blockquote>
+        </div>
+      </div>
+      <div class="card card-soir rounded-0" style="width: 18rem">
+        <div class="card-header">Tablier de sapeur</div>
+        <div class="card-body">
+          <blockquote class="blockquote mb-0">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+              posuere erat a ante.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+              posuere erat a ante.
+            </p>
+          </blockquote>
+        </div>
+      </div>
+      <div class="card card-week-end rounded-0" style="width: 18rem">
+        <div class="card-header">Gigot d'agneau</div>
+        <div class="card-body">
+          <blockquote class="blockquote mb-0">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+              posuere erat a ante.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+              posuere erat a ante.
+            </p>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <main>
+        <div class="backgroun-title">
+            <div class="background-image">
+                <h1>DES MENUS INNEDITS !</h1>
+                <div class="card-random "></div>
+                <div class="card-modal">
+                    
+                </div>
+                <h2>RANDOM MENUS</h2>
+            </div>
+        </div>
+        <h3>Galerie de photos</h3>
+        <div class="container-photos" ondragStart="start(event)">
+            <div class="photo" ><img src="/images/food1.jpg"width="297px"  > </div>
+            <div class="photo"><img src="/images/food2.jpg" width="297px"   ></div>
+            <div class="photo"><img src="/images/food3.jpg" width="297px"   ></div>
+            <div class="photo"><img src="/images/food4.jpg" width="297px"   ></div>
+            <div class="photo"><img src="/images/food5.jpg" width="297px"   ></div>
+            <div class="photo"><img src="/images/food6.jpg" width="297px"   ></div>
+            <div class="photo"><img src="/images/food7.jpg" width="297px"   ></div>
+            <div class="photo"><img src="/images/food8.jpg" width="297px"   ></div>
+            <div class="photo"><img src="/images/food9.jpg" width="297px"   ></div>
+            <div class="photo"><img src="/images/food10.jpg"width="297px"  ></div>
+            <div class="photo"><img src="/images/food11.jpg"width="297px"  ></div>
+            <div class="photo"><img src="/images/food12.jpg"width="297px"  ></div>
+        </div>
+     
+    </main>
+
+   
+  </body>
+</html>
